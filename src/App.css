@@ -11,6 +11,10 @@
   align-items: center;
 }
 
+nav {
+  padding: 1rem 0rem;
+}
+
 .nav-items {
   display: flex;
   gap: 2rem;
