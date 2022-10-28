@@ -1,6 +1,6 @@
 function Nav() {
   return (
-    <nav>
+    <nav className="nav-padding">
       <div className="container space-between-center">
         <div>
           <a href="#">

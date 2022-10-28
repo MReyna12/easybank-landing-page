@@ -1,0 +1,29 @@
+.hero-container-spacing {
+  padding: 8rem 0rem;
+}
+
+.hero-background {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.background-shapes {
+  background-image: url("./images/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 125% 55%;
+}
+
+.h1-container {
+  width: 400px;
+}
+
+.h1-text {
+  font-size: 2.5rem;
+  color: hsl(233, 26%, 24%);
+  line-height: 1.25;
+}
+
+.h1-subtext {
+  color: hsl(233, 8%, 62%);
+  line-height: 1.25;
+  margin: 2rem 0rem;
+}
