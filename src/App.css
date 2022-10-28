@@ -16,6 +16,11 @@
   gap: 2rem;
 }
 
+footer {
+  background-color: hsl(233, 26%, 24%);
+  color: #ffffff;
+}
+
 .footer-container-spacing {
   padding: 3rem 0rem;
 }
