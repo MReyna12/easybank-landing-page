@@ -10,7 +10,7 @@ img {
 }
 
 .articles-container-background {
-  background-color: hsl(220, 16%, 96%);
+  background-color: hsl(0, 0%, 98%);
 }
 
 .article-layout {
@@ -21,6 +21,7 @@ img {
 .articles-container-h2 {
   font-size: 2rem;
   margin-bottom: 2.5rem;
+  color: hsl(233, 26%, 24%);
 }
 
 .article-text-container {

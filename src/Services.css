@@ -1,0 +1,28 @@
+.services-container-background {
+  background-color: hsl(220, 16%, 96%);
+}
+
+.individual-service-container {
+  width: 300px;
+}
+
+.services-container-h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: hsl(233, 26%, 24%);
+}
+
+.all-services-container {
+  margin-top: 5rem;
+}
+
+.service-titles {
+  margin: 2rem 0rem 1.5rem 0rem;
+  font-size: 1.2rem;
+  color: hsl(233, 26%, 24%);
+}
+
+.service-descriptions {
+  color: hsl(233, 8%, 62%);
+  line-height: 1.5;
+}

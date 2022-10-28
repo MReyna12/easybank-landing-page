@@ -5,7 +5,7 @@ function Articles() {
     <div className="articles-container-background">
       <section className="container section-container-spacing">
         <h2 className="articles-container-h2">Latest Articles</h2>
-        <div className="article-layout">
+        <div className="flex-space-between">
           <div className="article-containers">
             <figure>
               <img
