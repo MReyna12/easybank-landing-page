@@ -13,6 +13,12 @@ function Hero() {
           </p>
           <button>Request Invite</button>
         </div>
+        <div className="cellphone-container">
+          <img
+            src="./images/image-mockups.png"
+            alt="Four cellphones with the easybank application showing on them"
+          />
+        </div>
       </section>
     </div>
   );

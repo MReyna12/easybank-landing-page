@@ -1,5 +1,6 @@
 .hero-container-spacing {
-  padding: 8rem 0rem;
+  padding-top: 12rem;
+  padding-bottom: 9rem;
 }
 
 .hero-background {
@@ -9,11 +10,12 @@
 .background-shapes {
   background-image: url("./images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
-  background-position: calc(100% + 300px) calc(100% + 200px);
+  background-position: calc(100% + 450px) calc(100% + 130px);
 }
 
 .h1-container {
   width: 400px;
+  padding-top: 2.5rem;
 }
 
 .h1-text {
@@ -27,3 +29,19 @@
   line-height: 1.25;
   margin: 2rem 0rem;
 }
+
+.cellphone-container {
+  position: absolute;
+  top: -50px;
+  right: -130px;
+}
+
+/*
+.background-shapes {
+  background-image: url("./images/image-mockups.png"),
+    url("./images/bg-intro-desktop.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: calc(100% + 125px) calc(100% + 240px),
+    calc(100% + 300px) calc(100% + 200px);
+}
+*/

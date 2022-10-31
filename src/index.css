@@ -147,6 +147,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 button {
   border-radius: 20px;
   border: 1px solid transparent;
@@ -161,7 +165,7 @@ button:hover {
 }
 
 .section-container-spacing {
-  padding: 4.5rem 0rem;
+  padding: 5.5rem 0rem;
 }
 
 .flex-space-between {
