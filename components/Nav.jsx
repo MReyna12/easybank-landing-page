@@ -7,7 +7,7 @@ function Nav() {
             <img src={"images/logo.svg"} alt="Easybank logo" />
           </a>
         </div>
-        <div>
+        <div className="nav-items-container navbar-menu">
           <ul className="nav-items">
             <li>
               <a href="#">Home</a>
@@ -26,9 +26,20 @@ function Nav() {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="navbar-menu">
           <button>Request Invite</button>
         </div>
+        <a
+          href="#"
+          className="navbar-burger"
+          role={"button"}
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
       </div>
     </nav>
   );

@@ -109,6 +109,44 @@ footer {
   .flex-wrap {
     flex-wrap: wrap;
   }
+
+  .navbar-burger {
+    appearance: none;
+    background: 0 0;
+    border: none;
+    cursor: pointer;
+    display: block;
+    position: relative;
+  }
+
+  .navbar-burger span {
+    background-color: hsl(136, 65%, 51%);
+    display: block;
+    height: 2px;
+    left: calc(50% - 8px);
+    position: absolute;
+    transform-origin: center;
+    transition-duration: 86ms;
+    transition-property: background-color, opacity, transform;
+    transition-timing-function: ease-out;
+    width: 16px;
+  }
+
+  .navbar-burger span:first-child {
+    top: calc(50% - 6px);
+  }
+
+  .navbar-burger span:nth-child(2) {
+    top: calc(50% - 1px);
+  }
+
+  .navbar-burger span:nth-child(3) {
+    top: calc(50% + 4px);
+  }
+
+  .navbar-menu {
+    display: none;
+  }
 }
 
 @media (max-width: 707px) {
