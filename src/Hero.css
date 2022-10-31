@@ -9,7 +9,7 @@
 .background-shapes {
   background-image: url("./images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
-  background-position: 125% 55%;
+  background-position: calc(100% + 300px) calc(100% + 200px);
 }
 
 .h1-container {
