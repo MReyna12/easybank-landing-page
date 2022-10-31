@@ -21,7 +21,6 @@ img {
 .articles-container-h2 {
   font-size: 2rem;
   margin-bottom: 2.5rem;
-  color: hsl(233, 26%, 24%);
 }
 
 .article-text-container {
@@ -36,6 +35,14 @@ img {
 .article-title {
   margin: 0.5rem 0rem;
   line-height: 1.25;
+}
+
+.article-title a {
+  color: hsl(233, 26%, 24%);
+}
+
+.article-title a:hover {
+  color: hsl(160, 63%, 38%);
 }
 
 .article-text {

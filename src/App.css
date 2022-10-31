@@ -20,6 +20,21 @@
   gap: 2rem;
 }
 
+.nav-items a {
+  color: hsl(233, 8%, 62%);
+}
+
+.nav-items a:hover::after {
+  content: "";
+  position: absolute;
+  bottom: 2px;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #444;
+  background: linear-gradient(left, transparent 0%, #444 50%, transparent 100%);
+}
+
 footer {
   background-color: hsl(233, 26%, 24%);
   color: #ffffff;
@@ -51,6 +66,14 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.footer-nav-items-spacing a {
+  color: white;
+}
+
+.footer-nav-items-spacing a:hover {
+  color: hsl(136, 65%, 51%);
 }
 
 .display-flex-only {

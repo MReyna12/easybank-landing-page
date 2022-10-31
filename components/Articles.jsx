@@ -16,7 +16,7 @@ function Articles() {
             <div className="article-text-container">
               <span className="article-authors">By Claire Robinson</span>
               <h4 className="article-title">
-                Receive money in any currency with no fees
+                <a href="#">Receive money in any currency with no fees</a>
               </h4>
               <p className="article-text">
                 The world is getting smaller and we're becoming more mobile. So
@@ -34,7 +34,7 @@ function Articles() {
             <div className="article-text-container">
               <span className="article-authors">By Wilson Hutton</span>
               <h4 className="article-title">
-                Treat yourself without worrying about money
+                <a href="#">Treat yourself without worrying about money</a>
               </h4>
               <p className="article-text">
                 Our simple budgeting feature allows you to separate out your
@@ -49,7 +49,7 @@ function Articles() {
             <div className="article-text-container">
               <span className="article-authors">By Wilson Hutton</span>
               <h4 className="article-title">
-                Take your Easybank card wherever you go
+                <a href="#">Take your Easybank card wherever you go</a>
               </h4>
               <p className="article-text">
                 We want you to enjoy your travels. This is why we don't charge
@@ -68,7 +68,7 @@ function Articles() {
             <div className="article-text-container">
               <span className="article-authors">By Claire Robinson</span>
               <h4 className="article-title">
-                Our invite-only Beta accounts are now live!
+                <a href="#">Our invite-only Beta accounts are now live!</a>
               </h4>
               <p className="article-text">
                 After a lot of hard work by the whole team, we're excited to
