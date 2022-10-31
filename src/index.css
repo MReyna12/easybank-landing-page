@@ -1,7 +1,6 @@
 :root {
   font-family: "Public Sans", sans-serif;
   font-size: 18px;
-  line-height: 24px;
   font-weight: 400;
   padding: 0;
   margin: 0;
@@ -175,4 +174,14 @@ button:hover {
 .flex-space-between {
   display: flex;
   justify-content: space-between;
+  gap: 2rem;
+}
+
+@media (max-width: 707px) {
+  .flex-space-between {
+    justify-content: center;
+  }
+  .text-align-center {
+    text-align: center;
+  }
 }

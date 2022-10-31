@@ -4,7 +4,7 @@ function Services() {
   return (
     <div className="services-container-background">
       <section className="container section-container-spacing">
-        <div>
+        <div className="text-align-center">
           <h2 className="services-container-h2">Why choose Easybank?</h2>
           <p className="service-descriptions">
             We leverage Open Banking to turn your bank account into your
@@ -14,7 +14,7 @@ function Services() {
             Control your finances like never before.
           </p>
         </div>
-        <div className="flex-space-between all-services-container">
+        <div className="flex-space-between all-services-container flex-wrap">
           <div className="individual-service-container">
             <figure>
               <img

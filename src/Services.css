@@ -26,3 +26,10 @@
   color: hsl(233, 8%, 62%);
   line-height: 1.5;
 }
+
+@media (max-width: 707px) {
+  .individual-service-container {
+    width: 100%;
+    text-align: center;
+  }
+}

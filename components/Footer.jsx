@@ -2,7 +2,7 @@ function Footer() {
   return (
     <footer>
       <section className="container space-between-center footer-container-spacing">
-        <div className="display-flex-only">
+        <div className="display-flex-only column-center-footer-items">
           <div className="footer-logo-socials-layout">
             <div>
               <a href="#">
@@ -46,7 +46,7 @@ function Footer() {
             </div>
           </div>
           <div className="footer-nav-items-layout">
-            <div>
+            <div className="top-footer-nav-margin text-align-center">
               <ul className="footer-nav-items-spacing">
                 <a href="#">
                   <li>About Us</li>
@@ -59,7 +59,7 @@ function Footer() {
                 </a>
               </ul>
             </div>
-            <div>
+            <div className="text-align-center">
               <ul className="footer-nav-items-spacing">
                 <a href="#">
                   <li>Careers</li>
@@ -75,11 +75,13 @@ function Footer() {
           </div>
         </div>
         <div className="footer-nav-items-spacing">
-          <div className="align-button-end">
+          <div className="align-button-end text-align-center">
             <button>Request Invite</button>
           </div>
           <div>
-            <small>&copy; Easybank. All Rights Reserved</small>
+            <small className="copyright text-align-center">
+              &copy; Easybank. All Rights Reserved
+            </small>
           </div>
         </div>
       </section>

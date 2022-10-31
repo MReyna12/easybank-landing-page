@@ -3,9 +3,11 @@ import "../src/Articles.css";
 function Articles() {
   return (
     <div className="articles-container-background">
-      <section className="container section-container-spacing">
-        <h2 className="articles-container-h2">Latest Articles</h2>
-        <div className="flex-space-between">
+      <section className="container section-container-spacing ">
+        <h2 className="articles-container-h2 text-align-center">
+          Latest Articles
+        </h2>
+        <div className="flex-space-between flex-wrap">
           <div className="article-containers">
             <figure>
               <img

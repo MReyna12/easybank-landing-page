@@ -3,7 +3,7 @@ import "../src/Hero.css";
 function Hero() {
   return (
     <div className="hero-background background-shapes">
-      <section className="container hero-container-spacing">
+      <section className="container mobile-background-shapes hero-container-spacing reverse-columns">
         <div className="h1-container">
           <h1 className="h1-text">Next generation digital banking</h1>
           <p className="h1-subtext">
