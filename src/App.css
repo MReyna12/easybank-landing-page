@@ -18,6 +18,11 @@ nav {
   background: white;
 }
 
+nav > div {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .nav-padding {
   padding: 1rem 0rem;
 }
@@ -48,7 +53,7 @@ footer {
 }
 
 .footer-container-spacing {
-  padding: 3rem 0rem;
+  padding: 3rem 2rem;
 }
 
 .footer-logo-socials-layout {

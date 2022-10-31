@@ -17,6 +17,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* CSS RESET */
 html,
 body,
@@ -165,7 +169,7 @@ button:hover {
 }
 
 .section-container-spacing {
-  padding: 5.5rem 0rem;
+  padding: 5.5rem 2rem;
 }
 
 .flex-space-between {
