@@ -5,7 +5,6 @@
   padding: 0;
   margin: 0;
 
-  color-scheme: light dark;
   color: #000;
   background-color: #ffffff;
 
@@ -160,11 +159,23 @@ button {
   padding: 0.8em 1.8em;
   font-size: 0.8em;
   font-family: inherit;
+  color: #ffffff;
   background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
   cursor: pointer;
 }
 button:hover {
   background: linear-gradient(to right, hsl(136, 57%, 65%), hsl(192, 63%, 61%));
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1344px;
 }
 
 .section-container-spacing {
@@ -175,6 +186,16 @@ button:hover {
   display: flex;
   justify-content: space-between;
   gap: 2rem;
+}
+
+@media (max-width: 1215px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 707px) {

@@ -1,3 +1,5 @@
+import "../src/Footer.css";
+
 function Footer() {
   return (
     <footer>
@@ -6,7 +8,7 @@ function Footer() {
           <div className="footer-logo-socials-layout">
             <div>
               <a href="#">
-                <img src="/images/logo.svg" alt="Easybank logo" />
+                <img src="/images/logo-white.svg" alt="Easybank logo" />
               </a>
             </div>
             <div>
