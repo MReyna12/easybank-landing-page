@@ -55,9 +55,9 @@ function Nav() {
           aria-label="menu"
           aria-expanded={showMenu}
         >
-          <span aria-expanded={showMenu}></span>
-          <span aria-expanded={showMenu}></span>
-          <span aria-expanded={showMenu}></span>
+          <span aria-label="close menu" aria-expanded={showMenu}></span>
+          <span aria-label="close menu" aria-expanded={showMenu}></span>
+          <span aria-label="close menu" aria-expanded={showMenu}></span>
         </a>
       </div>
     </nav>

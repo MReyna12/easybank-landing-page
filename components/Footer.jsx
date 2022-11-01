@@ -50,28 +50,28 @@ function Footer() {
           <div className="footer-nav-items-layout">
             <div className="top-footer-nav-margin text-align-center">
               <ul className="footer-nav-items-spacing">
-                <a href="#">
-                  <li>About Us</li>
-                </a>
-                <a href="#">
-                  <li>Contact</li>
-                </a>
-                <a href="#">
-                  <li>Blog</li>
-                </a>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li>
+                  <a href="#">Blog</a>
+                </li>
               </ul>
             </div>
             <div className="text-align-center">
               <ul className="footer-nav-items-spacing">
-                <a href="#">
-                  <li>Careers</li>
-                </a>
-                <a href="#">
-                  <li>Support</li>
-                </a>
-                <a href="#">
-                  <li>Privacy Policy</li>
-                </a>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+                <li>
+                  <a href="#">Support</a>
+                </li>
+                <li>
+                  <a href="#">Privacy Policy</a>
+                </li>
               </ul>
             </div>
           </div>
