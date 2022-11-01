@@ -10,7 +10,7 @@
 }
 
 .background-shapes {
-  background-image: url("./images/bg-intro-desktop.svg");
+  background-image: url("/images/bg-intro-desktop.svg");
   background-repeat: no-repeat;
   background-position: calc(100% + 450px) calc(100% + 130px);
 }
@@ -65,7 +65,7 @@
   }
 
   .mobile-background-shapes {
-    background: url("./images/bg-intro-mobile.svg");
+    background: url("/images/bg-intro-mobile.svg");
     background-repeat: no-repeat;
     background-size: contain;
   }
