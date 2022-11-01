@@ -60,6 +60,7 @@ nav > div {
     display: block;
     height: 3px;
     left: calc(50% - 8px);
+    z-index: 9999;
     position: absolute;
     transform-origin: center;
     transition-duration: 86ms;
@@ -101,5 +102,21 @@ nav > div {
   .mobile-menu[data-visible="true"] {
     transition: transform 0.5s ease-in;
     transform: translateX(0);
+  }
+
+  .navbar-burger span[aria-expanded="true"] {
+    transform: rotate(180deg);
+  }
+
+  .navbar-burger span:first-child[aria-expanded="true"] {
+    transform: rotate(45deg) translate(1px, 0px);
+  }
+
+  .navbar-burger span:nth-child(2)[aria-expanded="true"] {
+    opacity: 0;
+  }
+
+  .navbar-burger span:nth-child(3)[aria-expanded="true"] {
+    transform: rotate(-45deg) translate(7px, -6px);
   }
 }
